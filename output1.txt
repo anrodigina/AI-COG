@@ -1,0 +1,1290 @@
+PS C:\Users\тс1> python aqjsm.py @data\psy_20151221.cfg
+14:41:52 INFO      OS: Windows-10-10.0.10586-SP0, date: 2017-07-18
+14:41:52 INFO      Namespace(classid=1, datafile='data/psy_20151221.csv', loglevel='debug', nominaldata='0:1,2'
+ize=3, univer=10)
+14:41:52 INFO      ["%Computation configuration for data file 'Psychology, Physical Aggression' recieved 21 Dec
+14:41:52 INFO      Data file data/psy_20151221.csv: 72 columns, 86 objects, class column is "Physical Aggressio
+14:41:52 DEBUG     "Anger": [Interval(9.9789999999999992, 17.0, closed='right')
+ Interval(17.0, 24.0, closed='right') Interval(24.0, 31.0, closed='right')]
+        "E": [Interval(0.48599999999999999, 5.0, closed='right')
+ Interval(5.0, 9.5, closed='right') Interval(9.5, 14.0, closed='right')]
+        "ED": [Interval(4.9900000000000002, 8.3330000000000002, closed='right')
+ Interval(8.3330000000000002, 11.667, closed='right')
+ Interval(11.667, 15.0, closed='right')]
+        "Ep": [Interval(4.9859999999999998, 9.6669999999999998, closed='right')
+ Interval(9.6669999999999998, 14.333, closed='right')
+ Interval(14.333, 19.0, closed='right')]
+        "Es": [Interval(-0.0070000000000000001, 2.3330000000000002, closed='right')
+ Interval(2.3330000000000002, 4.6669999999999998, closed='right')
+ Interval(4.6669999999999998, 7.0, closed='right')]
+        "F1o": [Interval(4.9790000000000001, 12.0, closed='right')
+ Interval(12.0, 19.0, closed='right') Interval(19.0, 26.0, closed='right')]
+        "F1s": [Interval(10.962999999999999, 23.332999999999998, closed='right')
+ Interval(23.332999999999998, 35.667000000000002, closed='right')
+ Interval(35.667000000000002, 48.0, closed='right')]
+        "F2o": [Interval(8.9809999999999999, 15.333, closed='right')
+ Interval(15.333, 21.667000000000002, closed='right')
+ Interval(21.667000000000002, 28.0, closed='right')]
+        "F2s": [Interval(6.9790000000000001, 14.0, closed='right')
+ Interval(14.0, 21.0, closed='right') Interval(21.0, 28.0, closed='right')]
+        "GCR": [Interval(1.99, 5.3330000000000002, closed='right')
+ Interval(5.3330000000000002, 8.6669999999999998, closed='right')
+ Interval(8.6669999999999998, 12.0, closed='right')]
+        "Hostility": [Interval(8.9770000000000003, 16.667000000000002, closed='right')
+ Interval(16.667000000000002, 24.332999999999998, closed='right')
+ Interval(24.332999999999998, 32.0, closed='right')]
+        "I": [Interval(-0.0050000000000000001, 1.667, closed='right')
+ Interval(1.667, 3.3330000000000002, closed='right')
+ Interval(3.3330000000000002, 5.0, closed='right')]
+        "Ip": [Interval(0.98799999999999999, 5.0, closed='right')
+ Interval(5.0, 9.0, closed='right') Interval(9.0, 13.0, closed='right')]
+        "Is": [Interval(-0.0030000000000000001, 1.0, closed='right')
+ Interval(1.0, 2.0, closed='right') Interval(2.0, 3.0, closed='right')]
+        "M": [Interval(-0.0044999999999999997, 1.5, closed='right')
+ Interval(1.5, 3.0, closed='right') Interval(3.0, 4.5, closed='right')]
+        "Ms": [Interval(0.99199999999999999, 3.6669999999999998, closed='right')
+ Interval(3.6669999999999998, 6.3330000000000002, closed='right')
+ Interval(6.3330000000000002, 9.0, closed='right')]
+        "NP": [Interval(1.988, 6.1669999999999998, closed='right')
+ Interval(6.1669999999999998, 10.333, closed='right')
+ Interval(10.333, 14.5, closed='right')]
+        "OD": [Interval(3.492, 6.3330000000000002, closed='right')
+ Interval(6.3330000000000002, 9.1669999999999998, closed='right')
+ Interval(9.1669999999999998, 12.0, closed='right')]
+        "Physical Aggression": [Interval(9.9770000000000003, 17.667000000000002, closed='right')
+ Interval(17.667000000000002, 25.332999999999998, closed='right')
+ Interval(25.332999999999998, 33.0, closed='right')]
+        "e": [Interval(-0.0054999999999999997, 1.833, closed='right')
+ Interval(1.833, 3.6669999999999998, closed='right')
+ Interval(3.6669999999999998, 5.5, closed='right')]
+        "i": [Interval(-0.01, 3.3330000000000002, closed='right')
+ Interval(3.3330000000000002, 6.6669999999999998, closed='right')
+ Interval(6.6669999999999998, 10.0, closed='right')]
+        "ip": [Interval(1.99, 5.3330000000000002, closed='right')
+ Interval(5.3330000000000002, 8.6669999999999998, closed='right')
+ Interval(8.6669999999999998, 12.0, closed='right')]
+        "m": [Interval(-0.0040000000000000001, 1.333, closed='right')
+ Interval(1.333, 2.6669999999999998, closed='right')
+ Interval(2.6669999999999998, 4.0, closed='right')]
+        "Аналитический стиль": [Interval(-0.058999999999999997, 19.667000000000002, closed='right')
+ Interval(19.667000000000002, 39.332999999999998, closed='right')
+ Interval(39.332999999999998, 59.0, closed='right')]
+        "Безопасность": [Interval(-0.012, 4.0, closed='right') Interval(4.0, 8.0, closed='right')
+ Interval(8.0, 12.0, closed='right')]
+        "Благожелательность": [Interval(-0.014999999999999999, 5.0, closed='right')
+ Interval(5.0, 10.0, closed='right') Interval(10.0, 15.0, closed='right')]
+        "ВСУ": [Interval(16.641999999999999, 26.113, closed='right')
+ Interval(26.113, 35.557000000000002, closed='right')
+ Interval(35.557000000000002, 45.0, closed='right')]
+        "Власть-Богатство": [Interval(-0.012, 4.0, closed='right') Interval(4.0, 8.0, closed='right')
+ Interval(8.0, 12.0, closed='right')]
+        "Воспитание": [Interval(6.976, 15.0, closed='right') Interval(15.0, 23.0, closed='right')
+ Interval(23.0, 31.0, closed='right')]
+        "Всесилие": [Interval(17.942, 37.332999999999998, closed='right')
+ Interval(37.332999999999998, 56.667000000000002, closed='right')
+ Interval(56.667000000000002, 76.0, closed='right')]
+        "ГЧС": [Interval(18.541, 28.093, closed='right')
+ Interval(28.093, 37.616999999999997, closed='right')
+ Interval(37.616999999999997, 47.140000000000001, closed='right')]
+        "Гедонизм": [Interval(-0.012, 4.0, closed='right') Interval(4.0, 8.0, closed='right')
+ Interval(8.0, 12.0, closed='right')]
+        "ДЗП": [Interval(9.9719999999999995, 19.443000000000001, closed='right')
+ Interval(19.443000000000001, 28.887, closed='right')
+ Interval(28.887, 38.329999999999998, closed='right')]
+        "Директивный стиль": [Interval(-0.049000000000000002, 16.332999999999998, closed='right')
+ Interval(16.332999999999998, 32.667000000000002, closed='right')
+ Interval(32.667000000000002, 49.0, closed='right')]
+        "Достижение": [Interval(-0.012, 4.0, closed='right') Interval(4.0, 8.0, closed='right')
+ Interval(8.0, 12.0, closed='right')]
+        "Конформизм": [Interval(-0.012, 4.0, closed='right') Interval(4.0, 8.0, closed='right')
+ Interval(8.0, 12.0, closed='right')]
+        "Концептуальный стиль": [Interval(-0.057000000000000002, 19.0, closed='right')
+ Interval(19.0, 38.0, closed='right') Interval(38.0, 57.0, closed='right')]
+        "Личный опыт": [Interval(9.9499999999999993, 26.667000000000002, closed='right')
+ Interval(26.667000000000002, 43.332999999999998, closed='right')
+ Interval(43.332999999999998, 60.0, closed='right')]
+        "ММО": [Interval(17.472000000000001, 26.667000000000002, closed='right')
+ Interval(26.667000000000002, 35.832999999999998, closed='right')
+ Interval(35.832999999999998, 45.0, closed='right')]
+        "Нерешенность": [Interval(5.9880000000000004, 10.0, closed='right')
+ Interval(10.0, 14.0, closed='right') Interval(14.0, 18.0, closed='right')]
+        "Неув.в прич.": [Interval(35.951999999999998, 52.0, closed='right')
+ Interval(52.0, 68.0, closed='right') Interval(68.0, 84.0, closed='right')]
+        "Неуязвимость": [Interval(23.969000000000001, 34.332999999999998, closed='right')
+ Interval(34.332999999999998, 44.667000000000002, closed='right')
+ Interval(44.667000000000002, 55.0, closed='right')]
+        "Новизна": [Interval(6.9829999999999997, 12.667, closed='right')
+ Interval(12.667, 18.332999999999998, closed='right')
+ Interval(18.332999999999998, 24.0, closed='right')]
+        "ООО": [Interval(15.677, 26.663, closed='right')
+ Interval(26.663, 37.616999999999997, closed='right')
+ Interval(37.616999999999997, 48.57, closed='right')]
+        "ОШКМ": [Interval(64.918000000000006, 92.332999999999998, closed='right')
+ Interval(92.332999999999998, 119.667, closed='right')
+ Interval(119.667, 147.0, closed='right')]
+        "ОЭ": [Interval(12.971, 22.667000000000002, closed='right')
+ Interval(22.667000000000002, 32.332999999999998, closed='right')
+ Interval(32.332999999999998, 42.0, closed='right')]
+        "Общий": [Interval(36.927999999999997, 61.0, closed='right')
+ Interval(61.0, 85.0, closed='right') Interval(85.0, 109.0, closed='right')]
+        "Общий ": [Interval(44.960999999999999, 58.0, closed='right')
+ Interval(58.0, 71.0, closed='right') Interval(71.0, 84.0, closed='right')]
+        "ППВВ": [Interval(17.106999999999999, 28.093, closed='right')
+ Interval(28.093, 39.046999999999997, closed='right')
+ Interval(39.046999999999997, 50.0, closed='right')]
+        "ПФ": [Interval(12.462, 25.0, closed='right')
+ Interval(25.0, 37.5, closed='right') Interval(37.5, 50.0, closed='right')]
+        "Поведенческий стиль": [Interval(-0.048000000000000001, 16.0, closed='right')
+ Interval(16.0, 32.0, closed='right') Interval(32.0, 48.0, closed='right')]
+        "Политика": [Interval(19.952000000000002, 36.0, closed='right')
+ Interval(36.0, 52.0, closed='right') Interval(52.0, 68.0, closed='right')]
+        "Риск-новизна": [Interval(-0.010999999999999999, 3.6669999999999998, closed='right')
+ Interval(3.6669999999999998, 7.3330000000000002, closed='right')
+ Interval(7.3330000000000002, 11.0, closed='right')]
+        "СМИ": [Interval(12.962999999999999, 25.332999999999998, closed='right')
+ Interval(25.332999999999998, 37.667000000000002, closed='right')
+ Interval(37.667000000000002, 50.0, closed='right')]
+        "СЧЗ": [Interval(17.469000000000001, 27.917000000000002, closed='right')
+ Interval(27.917000000000002, 38.332999999999998, closed='right')
+ Interval(38.332999999999998, 48.75, closed='right')]
+        "Самостьятельность": [Interval(-0.010999999999999999, 3.6669999999999998, closed='right')
+ Interval(3.6669999999999998, 7.3330000000000002, closed='right')
+ Interval(7.3330000000000002, 11.0, closed='right')]
+        "Сложность": [Interval(19.966999999999999, 31.0, closed='right')
+ Interval(31.0, 42.0, closed='right') Interval(42.0, 53.0, closed='right')]
+        "Спорт": [Interval(4.9829999999999997, 10.667, closed='right')
+ Interval(10.667, 16.332999999999998, closed='right')
+ Interval(16.332999999999998, 22.0, closed='right')]
+        "Традиция": [Interval(-0.01, 3.3330000000000002, closed='right')
+ Interval(3.3330000000000002, 6.6669999999999998, closed='right')
+ Interval(6.6669999999999998, 10.0, closed='right')]
+        "Универсализм": [Interval(-0.010999999999999999, 3.6669999999999998, closed='right')
+ Interval(3.6669999999999998, 7.3330000000000002, closed='right')
+ Interval(7.3330000000000002, 11.0, closed='right')]
+        "Уникальность": [Interval(24.966000000000001, 36.332999999999998, closed='right')
+ Interval(36.332999999999998, 47.667000000000002, closed='right')
+ Interval(47.667000000000002, 59.0, closed='right')]
+        "ШВ": [Interval(22.988, 27.0, closed='right')
+ Interval(27.0, 31.0, closed='right') Interval(31.0, 35.0, closed='right')]
+        "ШКМ": [Interval(11.958, 26.0, closed='right')
+ Interval(26.0, 40.0, closed='right') Interval(40.0, 54.0, closed='right')]
+        "ШЛ": [Interval(11.978, 19.332999999999998, closed='right')
+ Interval(19.332999999999998, 26.667000000000002, closed='right')
+ Interval(26.667000000000002, 34.0, closed='right')]
+        "ШЛСМ": [Interval(-0.019, 6.3330000000000002, closed='right')
+ Interval(6.3330000000000002, 12.667, closed='right')
+ Interval(12.667, 19.0, closed='right')]
+        "ШНО": [Interval(-0.050999999999999997, 17.0, closed='right')
+ Interval(17.0, 34.0, closed='right') Interval(34.0, 51.0, closed='right')]
+        "ШПС": [Interval(5.9489999999999998, 23.0, closed='right')
+ Interval(23.0, 40.0, closed='right') Interval(40.0, 57.0, closed='right')]
+        "ШСЖ": [Interval(16.975000000000001, 25.332999999999998, closed='right')
+ Interval(25.332999999999998, 33.667000000000002, closed='right')
+ Interval(33.667000000000002, 42.0, closed='right')]
+        "ШЭМ": [Interval(11.957000000000001, 26.332999999999998, closed='right')
+ Interval(26.332999999999998, 40.667000000000002, closed='right')
+ Interval(40.667000000000002, 55.0, closed='right')]
+        "ШЭС": [Interval(46.914000000000001, 75.667000000000002, closed='right')
+ Interval(75.667000000000002, 104.333, closed='right')
+ Interval(104.333, 133.0, closed='right')]
+        "сложные": [Interval(-0.017000000000000001, 5.6669999999999998, closed='right')
+ Interval(5.6669999999999998, 11.333, closed='right')
+ Interval(11.333, 17.0, closed='right')]
+14:41:53 DEBUG     AQ output
+# -- Opening file C:\Users\18A10~1\AppData\Local\Temp\tmpa5fa0ks7
+# -- Done Parsing
+# -- Number of Events: 86
+# -- Number of Testing Events: 0
+# attribute selection for all classes ...
+# attribute selection: attr_0 : 0.404092
+# attribute selection: attr_1 : 1
+# attribute selection: attr_2 : 0.49426
+# attribute selection: attr_3 : 0.50837
+# attribute selection: attr_4 : 0.466563
+# attribute selection: attr_5 : 0.445771
+# attribute selection: attr_6 : 0.447607
+# attribute selection: attr_7 : 0.531499
+# attribute selection: attr_8 : 0.446097
+# attribute selection: attr_9 : 0.492211
+# attribute selection: attr_10 : 0.500048
+# attribute selection: attr_11 : 0.468464
+# attribute selection: attr_12 : 0.481109
+# attribute selection: attr_13 : 0.50231
+# attribute selection: attr_14 : 0.454454
+# attribute selection: attr_15 : 0.559924
+# attribute selection: attr_16 : 0.448247
+# attribute selection: attr_17 : 0.455551
+# attribute selection: attr_18 : 0.462635
+# attribute selection: attr_19 : 0.4692
+# attribute selection: attr_20 : 0.517061
+# attribute selection: attr_21 : 0.465008
+# attribute selection: attr_22 : 0.425696
+# attribute selection: attr_23 : 0.479936
+# attribute selection: attr_24 : 0.465232
+# attribute selection: attr_25 : 0.42704
+# attribute selection: attr_26 : 0.414365
+# attribute selection: attr_27 : 0.376771
+# attribute selection: attr_28 : 0.374877
+# attribute selection: attr_29 : 0.363092
+# attribute selection: attr_30 : 0.444187
+# attribute selection: attr_31 : 0.503374
+# attribute selection: attr_32 : 0.45905
+# attribute selection: attr_33 : 0.480588
+# attribute selection: attr_34 : 0.475583
+# attribute selection: attr_35 : 0.449725
+# attribute selection: attr_36 : 0.491752
+# attribute selection: attr_37 : 0.458608
+# attribute selection: attr_38 : 0.5038
+# attribute selection: attr_39 : 0.512195
+# attribute selection: attr_40 : 0.49618
+# attribute selection: attr_41 : 0.454197
+# attribute selection: attr_42 : 0.503845
+# attribute selection: attr_43 : 0.430273
+# attribute selection: attr_44 : 0.35392
+# attribute selection: attr_45 : 0.537307
+# attribute selection: attr_46 : 0.503531
+# attribute selection: attr_47 : 0.508068
+# attribute selection: attr_48 : 0.494802
+# attribute selection: attr_49 : 0.441529
+# attribute selection: attr_50 : 0.472746
+# attribute selection: attr_51 : 0.542616
+# attribute selection: attr_52 : 0.45578
+# attribute selection: attr_53 : 0.474548
+# attribute selection: attr_54 : 0.328671
+# attribute selection: attr_55 : 0.470234
+# attribute selection: attr_56 : 0.466814
+# attribute selection: attr_57 : 0.576758
+# attribute selection: attr_58 : 0.46891
+# attribute selection: attr_59 : 0.433537
+# attribute selection: attr_60 : 0.448794
+# attribute selection: attr_61 : 0.506718
+# attribute selection: attr_62 : 0.49598
+# attribute selection: attr_63 : 0.511328
+# attribute selection: attr_64 : 0.457927
+# attribute selection: attr_65 : 0.445797
+# attribute selection: attr_66 : 0.469283
+# attribute selection: attr_67 : 0.446452
+# attribute selection: attr_68 : 0.423145
+# attribute selection: attr_69 : 0.497072
+# attribute selection: attr_70 : 0.526225
+# attribute selection: attr_71 : 0.557592
+# Creating file
+# -- Output Generated by AQ21
+Description
+{
+
+definition_filename = C:\Users\18A10~1\AppData\Local\Temp\tmpa5fa0ks7
+
+
+        Building classRules for classes
+
+}
+
+(#  -- Debugging information
+
+The following information are required when submitting a bug.
+They specify which version of the program was used.
+
+$Id: aq21.cpp,v 1.9 2004/10/21 17:15:03 jwojt Exp $
+$Id: AqLearner.cpp,v 1.22 2004/12/01 16:46:57 jwojt Exp $
+$Id: BasicComplex.cpp,v 1.16 2004/12/01 16:46:57 jwojt Exp $
+$Id: LEF.cpp,v 1.1.1.1 2003/06/18 21:07:23 jwojt Exp $
+$Id: LEFCriterion.cpp,v 1.4 2004/10/05 20:59:04 jwojt Exp $
+$Id: Domain.cpp,v 1.8 2004/11/29 21:56:10 jwojt Exp $
+$Id: Attribute.cpp,v 1.8 2004/06/30 20:32:12 jwojt Exp $
+$Id: Tests.cpp,v 1.13 2004/10/08 20:55:01 jwojt Exp $
+$Id: CI.cpp,v 1.6 2004/10/21 17:15:03 jwojt Exp $
+
+#)
+
+domains
+{
+        attr_0 nominal  { 1, 2 }
+        attr_1 nominal  { 1, 2, 3 }
+        attr_10 nominal  { 1, 2, 3 }
+        attr_11 nominal  { 1, 2, 3 }
+        attr_12 nominal  { 1, 2, 3 }
+        attr_13 nominal  { 1, 2, 3 }
+        attr_14 nominal  { 1, 2, 3 }
+        attr_15 nominal  { 1, 2, 3 }
+        attr_16 nominal  { 1, 2, 3 }
+        attr_17 nominal  { 1, 2, 3 }
+        attr_18 nominal  { 1, 2, 3 }
+        attr_19 nominal  { 1, 2, 3 }
+        attr_2 nominal  { 1, 2, 3 }
+        attr_20 nominal  { 1, 2, 3 }
+        attr_21 nominal  { 1, 2, 3 }
+        attr_22 nominal  { 1, 2, 3 }
+        attr_23 nominal  { 1, 2, 3 }
+        attr_24 nominal  { 1, 2, 3 }
+        attr_25 nominal  { 1, 2, 3 }
+        attr_26 nominal  { 1, 2, 3 }
+        attr_27 nominal  { 1, 2, 3 }
+        attr_28 nominal  { 1, 2, 3 }
+        attr_29 nominal  { 1, 2, 3 }
+        attr_3 nominal  { 1, 2, 3 }
+        attr_30 nominal  { 1, 2, 3 }
+        attr_31 nominal  { 1, 2, 3 }
+        attr_32 nominal  { 1, 2, 3 }
+        attr_33 nominal  { 1, 2, 3 }
+        attr_34 nominal  { 1, 2, 3 }
+        attr_35 nominal  { 1, 2, 3 }
+        attr_36 nominal  { 1, 2, 3 }
+        attr_37 nominal  { 1, 2, 3 }
+        attr_38 nominal  { 1, 2, 3 }
+        attr_39 nominal  { 1, 2, 3 }
+        attr_4 nominal  { 1, 2, 3 }
+        attr_40 nominal  { 1, 2, 3 }
+        attr_41 nominal  { 1, 2, 3 }
+        attr_42 nominal  { 1, 2, 3 }
+        attr_43 nominal  { 1, 2, 3 }
+        attr_44 nominal  { 1, 2, 3 }
+        attr_45 nominal  { 1, 2, 3 }
+        attr_46 nominal  { 1, 2, 3 }
+        attr_47 nominal  { 1, 2, 3 }
+        attr_48 nominal  { 1, 2, 3 }
+        attr_49 nominal  { 1, 2, 3 }
+        attr_5 nominal  { 1, 2, 3 }
+        attr_50 nominal  { 1, 2, 3 }
+        attr_51 nominal  { 1, 2, 3 }
+        attr_52 nominal  { 1, 2, 3 }
+        attr_53 nominal  { 1, 2, 3 }
+        attr_54 nominal  { 1, 2, 3 }
+        attr_55 nominal  { 1, 2, 3 }
+        attr_56 nominal  { 1, 2, 3 }
+        attr_57 nominal  { 1, 2, 3 }
+        attr_58 nominal  { 1, 2, 3 }
+        attr_59 nominal  { 1, 2, 3 }
+        attr_6 nominal  { 1, 2, 3 }
+        attr_60 nominal  { 1, 2, 3 }
+        attr_61 nominal  { 1, 2, 3 }
+        attr_62 nominal  { 1, 2, 3 }
+        attr_63 nominal  { 1, 2, 3 }
+        attr_64 nominal  { 1, 2, 3 }
+        attr_65 nominal  { 1, 2, 3 }
+        attr_66 nominal  { 1, 2, 3 }
+        attr_67 nominal  { 1, 2, 3 }
+        attr_68 nominal  { 1, 2, 3 }
+        attr_69 nominal  { 1, 2, 3 }
+        attr_7 nominal  { 1, 2, 3 }
+        attr_70 nominal  { 1, 2, 3 }
+        attr_71 nominal  { 1, 2, 3 }
+        attr_8 nominal  { 1, 2, 3 }
+        attr_9 nominal  { 1, 2, 3 }
+}
+
+
+attributes
+{
+        attr_0 attr_0 epsilon = 0.5 cost = 1
+        attr_1 attr_1 epsilon = 0.5 cost = 1
+        attr_2 attr_2 epsilon = 0.5 cost = 1
+        attr_3 attr_3 epsilon = 0.5 cost = 1
+        attr_4 attr_4 epsilon = 0.5 cost = 1
+        attr_5 attr_5 epsilon = 0.5 cost = 1
+        attr_6 attr_6 epsilon = 0.5 cost = 1
+        attr_7 attr_7 epsilon = 0.5 cost = 1
+        attr_8 attr_8 epsilon = 0.5 cost = 1
+        attr_9 attr_9 epsilon = 0.5 cost = 1
+        attr_10 attr_10 epsilon = 0.5 cost = 1
+        attr_11 attr_11 epsilon = 0.5 cost = 1
+        attr_12 attr_12 epsilon = 0.5 cost = 1
+        attr_13 attr_13 epsilon = 0.5 cost = 1
+        attr_14 attr_14 epsilon = 0.5 cost = 1
+        attr_15 attr_15 epsilon = 0.5 cost = 1
+        attr_16 attr_16 epsilon = 0.5 cost = 1
+        attr_17 attr_17 epsilon = 0.5 cost = 1
+        attr_18 attr_18 epsilon = 0.5 cost = 1
+        attr_19 attr_19 epsilon = 0.5 cost = 1
+        attr_20 attr_20 epsilon = 0.5 cost = 1
+        attr_21 attr_21 epsilon = 0.5 cost = 1
+        attr_22 attr_22 epsilon = 0.5 cost = 1
+        attr_23 attr_23 epsilon = 0.5 cost = 1
+        attr_24 attr_24 epsilon = 0.5 cost = 1
+        attr_25 attr_25 epsilon = 0.5 cost = 1
+        attr_26 attr_26 epsilon = 0.5 cost = 1
+        attr_27 attr_27 epsilon = 0.5 cost = 1
+        attr_28 attr_28 epsilon = 0.5 cost = 1
+        attr_29 attr_29 epsilon = 0.5 cost = 1
+        attr_30 attr_30 epsilon = 0.5 cost = 1
+        attr_31 attr_31 epsilon = 0.5 cost = 1
+        attr_32 attr_32 epsilon = 0.5 cost = 1
+        attr_33 attr_33 epsilon = 0.5 cost = 1
+        attr_34 attr_34 epsilon = 0.5 cost = 1
+        attr_35 attr_35 epsilon = 0.5 cost = 1
+        attr_36 attr_36 epsilon = 0.5 cost = 1
+        attr_37 attr_37 epsilon = 0.5 cost = 1
+        attr_38 attr_38 epsilon = 0.5 cost = 1
+        attr_39 attr_39 epsilon = 0.5 cost = 1
+        attr_40 attr_40 epsilon = 0.5 cost = 1
+        attr_41 attr_41 epsilon = 0.5 cost = 1
+        attr_42 attr_42 epsilon = 0.5 cost = 1
+        attr_43 attr_43 epsilon = 0.5 cost = 1
+        attr_44 attr_44 epsilon = 0.5 cost = 1
+        attr_45 attr_45 epsilon = 0.5 cost = 1
+        attr_46 attr_46 epsilon = 0.5 cost = 1
+        attr_47 attr_47 epsilon = 0.5 cost = 1
+        attr_48 attr_48 epsilon = 0.5 cost = 1
+        attr_49 attr_49 epsilon = 0.5 cost = 1
+        attr_50 attr_50 epsilon = 0.5 cost = 1
+        attr_51 attr_51 epsilon = 0.5 cost = 1
+        attr_52 attr_52 epsilon = 0.5 cost = 1
+        attr_53 attr_53 epsilon = 0.5 cost = 1
+        attr_54 attr_54 epsilon = 0.5 cost = 1
+        attr_55 attr_55 epsilon = 0.5 cost = 1
+        attr_56 attr_56 epsilon = 0.5 cost = 1
+        attr_57 attr_57 epsilon = 0.5 cost = 1
+        attr_58 attr_58 epsilon = 0.5 cost = 1
+        attr_59 attr_59 epsilon = 0.5 cost = 1
+        attr_60 attr_60 epsilon = 0.5 cost = 1
+        attr_61 attr_61 epsilon = 0.5 cost = 1
+        attr_62 attr_62 epsilon = 0.5 cost = 1
+        attr_63 attr_63 epsilon = 0.5 cost = 1
+        attr_64 attr_64 epsilon = 0.5 cost = 1
+        attr_65 attr_65 epsilon = 0.5 cost = 1
+        attr_66 attr_66 epsilon = 0.5 cost = 1
+        attr_67 attr_67 epsilon = 0.5 cost = 1
+        attr_68 attr_68 epsilon = 0.5 cost = 1
+        attr_69 attr_69 epsilon = 0.5 cost = 1
+        attr_70 attr_70 epsilon = 0.5 cost = 1
+        attr_71 attr_71 epsilon = 0.5 cost = 1
+}
+
+
+runs
+{
+ random_seed = 975313573
+
+   rules_for_1
+   {
+     consequent = [attr_1=1]
+     learn_rules_mode = standard
+
+     maxstar = 2     maxrule = 5     ambiguity = IgnoreForLearning
+     trim = Optimal
+     exceptions = false
+
+     mode = tf
+     minimum_u = 1
+
+     optimize_ruleset = true
+     continuous_optimization_probe = 5
+
+     truncate = true
+     display_selectors_coverage = false
+     display_values_coverage = false
+     display_events_covered = false
+     display_alternative_covers = false
+   attribute_selection_method = none
+     handling_unknown_values = program_selected_method
+
+     LEF_star
+     {
+         MaxNewPositives, 0.3
+         MinNumSelectors, 0.3
+         MinComplexity, 0.3
+         MinCost, 0.3
+     }
+
+     LEF_partial_star
+     {
+         MaxNewPositives, 0
+         MinNumSelectors, 0
+         MinComplexity, 0
+         MinCost, 0
+     }
+
+     LEF_sort
+     {
+         MaxPositives, 0
+     }
+
+   }
+
+   rules_for_2
+   {
+     consequent = [attr_1=2]
+     learn_rules_mode = standard
+
+     maxstar = 2     maxrule = 5     ambiguity = IgnoreForLearning
+     trim = Optimal
+     exceptions = false
+
+     mode = tf
+     minimum_u = 1
+
+     optimize_ruleset = true
+     continuous_optimization_probe = 5
+
+     truncate = true
+     display_selectors_coverage = false
+     display_values_coverage = false
+     display_events_covered = false
+     display_alternative_covers = false
+   attribute_selection_method = none
+     handling_unknown_values = program_selected_method
+
+     LEF_star
+     {
+         MaxNewPositives, 0.3
+         MinNumSelectors, 0.3
+         MinComplexity, 0.3
+         MinCost, 0.3
+     }
+
+     LEF_partial_star
+     {
+         MaxNewPositives, 0
+         MinNumSelectors, 0
+         MinComplexity, 0
+         MinCost, 0
+     }
+
+     LEF_sort
+     {
+         MaxPositives, 0
+     }
+
+   }
+
+   rules_for_3
+   {
+     consequent = [attr_1=3]
+     learn_rules_mode = standard
+
+     maxstar = 2     maxrule = 5     ambiguity = IgnoreForLearning
+     trim = Optimal
+     exceptions = false
+
+     mode = tf
+     minimum_u = 1
+
+     optimize_ruleset = true
+     continuous_optimization_probe = 5
+
+     truncate = true
+     display_selectors_coverage = false
+     display_values_coverage = false
+     display_events_covered = false
+     display_alternative_covers = false
+   attribute_selection_method = none
+     handling_unknown_values = program_selected_method
+
+     LEF_star
+     {
+         MaxNewPositives, 0.3
+         MinNumSelectors, 0.3
+         MinComplexity, 0.3
+         MinCost, 0.3
+     }
+
+     LEF_partial_star
+     {
+         MaxNewPositives, 0
+         MinNumSelectors, 0
+         MinComplexity, 0
+         MinCost, 0
+     }
+
+     LEF_sort
+     {
+         MaxPositives, 0
+     }
+
+   }
+
+}
+
+
+Output_Hypotheses rules_for_1
+{
+  # -- This learning took =
+  # -- System (CPU) time  = 0.11
+  # -- User (Total) time  = 0
+  # -- Number of rules in the cover = 7
+  # -- Number of conditions         = 61
+  # -- Complexity for this cover    = 525
+  # -- Average number of rules kept from each stars = 5
+  # -- Uncovered Positives = 0
+
+  positive_events           = 27
+  negative_events           = 59
+[attr_1=1]
+       # Rule 1
+   <-- [attr_0=2]
+       [attr_3=1,2]
+       [attr_8=1,2]
+       [attr_12=1,2]
+       [attr_14=1,2]
+       [attr_22=2,3]
+       [attr_23=2,3]
+       [attr_24=2,3]
+       [attr_40=2,3]
+       [attr_53=1,2]
+       [attr_59=1,2]
+       [attr_71=1]
+        : p=11,np=11,u=2,cx=104,c=1,s=11 # 3948
+
+       # Rule 2
+   <-- [attr_0=2]
+       [attr_8=1,2]
+       [attr_12=1,2]
+       [attr_14=1,2]
+       [attr_22=2,3]
+       [attr_23=2,3]
+       [attr_24=2,3]
+       [attr_30=1,3]
+       [attr_40=2,3]
+       [attr_53=1,2]
+       [attr_59=1,2]
+       [attr_71=1]
+        : p=10,np=10,u=2,cx=104,c=1,s=10 # 3949
+
+       # Rule 3
+   <-- [attr_2=1,2]
+       [attr_15=1,2]
+       [attr_35=1,3]
+       [attr_43=1,3]
+       [attr_69=1,3]
+       [attr_70=1,2]
+        : p=7,np=5,u=1,cx=54,c=1,s=7 # 3950
+
+       # Rule 4
+   <-- [attr_2=1,2]
+       [attr_7=1,3]
+       [attr_15=1,2]
+       [attr_35=1,3]
+       [attr_69=1,3]
+       [attr_70=1,2]
+        : p=7,np=5,u=1,cx=54,c=1,s=7 # 3951
+
+       # Rule 5
+   <-- [attr_2=1,3]
+       [attr_14=1,2]
+       [attr_15=1,3]
+       [attr_16=2]
+       [attr_17=2,3]
+       [attr_33=2]
+       [attr_39=2,3]
+       [attr_43=1,2]
+       [attr_50=1,2]
+       [attr_68=2,3]
+        : p=6,np=5,u=1,cx=86,c=1,s=6 # 3952
+
+       # Rule 6
+   <-- [attr_0=2]
+       [attr_17=2]
+       [attr_23=2,3]
+       [attr_37=3]
+       [attr_39=2]
+        : p=5,np=1,u=1,cx=37,c=1,s=5 # 3953
+
+       # Rule 7
+   <-- [attr_2=1,3]
+       [attr_15=1,3]
+       [attr_16=2]
+       [attr_17=2,3]
+       [attr_29=3]
+       [attr_33=1,2]
+       [attr_39=2,3]
+       [attr_43=1,2]
+       [attr_50=1,2]
+       [attr_51=1,3]
+        : p=5,np=5,u=2,cx=86,c=1,s=5 # 3954
+
+
+}
+
+Output_Hypotheses rules_for_2
+{
+  # -- This learning took =
+  # -- System (CPU) time  = 0.172
+  # -- User (Total) time  = 0
+  # -- Number of rules in the cover = 7
+  # -- Number of conditions         = 66
+  # -- Complexity for this cover    = 576
+  # -- Average number of rules kept from each stars = 4.25
+  # -- Uncovered Positives = 0
+
+  positive_events           = 42
+  negative_events           = 44
+[attr_1=2]
+       # Rule 1
+   <-- [attr_6=1,2]
+       [attr_10=2,3]
+       [attr_11=2,3]
+       [attr_30=1,2]
+       [attr_32=1,3]
+       [attr_40=1,2]
+       [attr_59=1,2]
+       [attr_71=1,2]
+        : p=15,np=10,u=3,cx=72,c=1,s=15 # 7810
+
+       # Rule 2
+   <-- [attr_9=2,3]
+       [attr_10=2,3]
+       [attr_11=2]
+       [attr_12=2,3]
+       [attr_13=2,3]
+       [attr_15=2,3]
+       [attr_20=2,3]
+       [attr_25=1,2]
+       [attr_31=2,3]
+       [attr_43=1,2]
+       [attr_44=2]
+       [attr_46=1,2]
+       [attr_68=1,2]
+        : p=15,np=15,u=3,cx=113,c=1,s=15 # 7811
+
+       # Rule 3
+   <-- [attr_9=2,3]
+       [attr_10=2,3]
+       [attr_12=2,3]
+       [attr_13=2,3]
+       [attr_15=2,3]
+       [attr_20=2,3]
+       [attr_25=1,2]
+       [attr_28=1,3]
+       [attr_31=2,3]
+       [attr_43=1,2]
+       [attr_44=2]
+       [attr_46=1,2]
+       [attr_68=1,2]
+        : p=14,np=14,u=2,cx=115,c=1,s=14 # 7813
+
+       # Rule 4
+   <-- [attr_6=1,2]
+       [attr_11=2,3]
+       [attr_30=1,2]
+       [attr_32=1,3]
+       [attr_40=1,2]
+       [attr_59=1,2]
+       [attr_67=2,3]
+       [attr_71=1,2]
+        : p=13,np=11,u=3,cx=72,c=1,s=13 # 7814
+
+       # Rule 5
+   <-- [attr_0=2]
+       [attr_7=2]
+       [attr_14=1]
+       [attr_25=2]
+       [attr_34=1,2]
+       [attr_44=2]
+        : p=6,np=2,u=3,cx=44,c=1,s=6 # 7815
+
+       # Rule 6
+   <-- [attr_6=2,3]
+       [attr_7=2,3]
+       [attr_24=2,3]
+       [attr_25=1,2]
+       [attr_33=1,3]
+       [attr_37=2,3]
+       [attr_60=1,2]
+       [attr_69=2,3]
+       [attr_70=2,3]
+        : p=5,np=5,u=1,cx=81,c=1,s=5 # 7816
+
+       # Rule 7
+   <-- [attr_6=2,3]
+       [attr_7=3]
+       [attr_22=1,2]
+       [attr_24=2,3]
+       [attr_25=1,2]
+       [attr_33=1,3]
+       [attr_37=2,3]
+       [attr_69=2,3]
+       [attr_70=2,3]
+        : p=5,np=5,u=2,cx=79,c=1,s=5 # 7817
+
+
+}
+
+Output_Hypotheses rules_for_3
+{
+  # -- This learning took =
+  # -- System (CPU) time  = 0.093
+  # -- User (Total) time  = 0
+  # -- Number of rules in the cover = 6
+  # -- Number of conditions         = 66
+  # -- Complexity for this cover    = 574
+  # -- Average number of rules kept from each stars = 5
+  # -- Uncovered Positives = 0
+
+  positive_events           = 17
+  negative_events           = 69
+[attr_1=3]
+       # Rule 1
+   <-- [attr_5=2,3]
+       [attr_11=1,3]
+       [attr_15=2,3]
+       [attr_18=1,2]
+       [attr_34=1,2]
+       [attr_43=1]
+       [attr_53=2,3]
+       [attr_61=1,2]
+       [attr_68=1,2]
+       [attr_71=1]
+        : p=6,np=6,u=2,cx=86,c=1,s=6 # 11456
+
+       # Rule 2
+   <-- [attr_5=2,3]
+       [attr_8=2,3]
+       [attr_13=2,3]
+       [attr_14=1,2]
+       [attr_15=2,3]
+       [attr_18=1,2]
+       [attr_34=1,2]
+       [attr_43=1]
+       [attr_53=2,3]
+       [attr_61=1,2]
+       [attr_71=1]
+        : p=5,np=5,u=1,cx=95,c=1,s=5 # 11457
+
+       # Rule 3
+   <-- [attr_2=2,3]
+       [attr_6=2,3]
+       [attr_7=2,3]
+       [attr_13=2,3]
+       [attr_18=2,3]
+       [attr_34=1,3]
+       [attr_36=1,2]
+       [attr_39=1,2]
+       [attr_45=2,3]
+       [attr_46=2,3]
+       [attr_47=2,3]
+       [attr_48=2,3]
+       [attr_50=2,3]
+        : p=5,np=5,u=1,cx=117,c=1,s=5 # 11458
+
+       # Rule 4
+   <-- [attr_2=2,3]
+       [attr_6=2,3]
+       [attr_7=2,3]
+       [attr_13=2,3]
+       [attr_18=2,3]
+       [attr_36=1,2]
+       [attr_39=1,2]
+       [attr_45=2,3]
+       [attr_46=2,3]
+       [attr_47=2,3]
+       [attr_48=2,3]
+       [attr_50=2,3]
+       [attr_56=1,2]
+        : p=5,np=5,u=1,cx=117,c=1,s=5 # 11459
+
+       # Rule 5
+   <-- [attr_2=2,3]
+       [attr_6=2,3]
+       [attr_7=2,3]
+       [attr_13=2,3]
+       [attr_18=2,3]
+       [attr_25=1]
+       [attr_39=1,2]
+       [attr_45=2]
+       [attr_46=2,3]
+       [attr_47=2,3]
+       [attr_48=2,3]
+       [attr_50=2,3]
+        : p=5,np=5,u=2,cx=104,c=1,s=5 # 11460
+
+       # Rule 6
+   <-- [attr_0=2]
+       [attr_4=3]
+       [attr_5=2]
+       [attr_25=1,3]
+       [attr_36=2,3]
+       [attr_49=2]
+       [attr_70=2,3]
+        : p=2,np=2,u=2,cx=55,c=1,s=2 # 11461
+
+
+}
+
+
+14:41:53 DEBUG     For class 1 was found 7 rules
+14:41:53 DEBUG     For class 2 was found 7 rules
+14:41:53 DEBUG     For class 3 was found 6 rules
+14:41:53 INFO      Description of class 1 (10 properties):
+         11: "ШСЖ"=_oo
+         11: "ШЛСМ"=_oo
+         11: "ШВ"=_oo
+         11: "СЧЗ"=oo_
+         11: "Пол"=_o_
+         11: "ПФ"=oo_
+         11: "Неув.в прич."=_oo
+         11: "ММО"=oo_
+         11: "m"=oo_
+         11: "e"=oo_
+Description of class 2 (10 properties):
+         15: "ШЛ"=oo_
+         15: "ШКМ"=_oo
+         15: "Уникальность"=oo_
+         15: "Традиция"=o_o
+         15: "ППВВ"=_oo
+         15: "Общий "=_o_
+         15: "ОЭ"=_oo
+         15: "ООО"=_oo
+         15: "Неув.в прич."=oo_
+         15: "Нерешенность"=oo_
+Description of class 3 (10 properties):
+          6: "ШЭМ"=oo_
+          6: "Риск-новизна"=oo_
+          6: "ООО"=o_o
+          6: "Неуязвимость"=_oo
+          6: "Нерешенность"=o__
+          6: "ДЗП"=_oo
+          6: "e"=_oo
+          6: "Ip"=oo_
+          6: "F2s"=o__
+          6: "F1o"=oo_
+14:41:53 INFO
+
+
+*****Start search reasons for class 3*****
+14:41:53 INFO      Start search reasons for class property 3
+14:41:53 DEBUG          Delete 11 duplicated events
+14:41:53 DEBUG          Miss 0 missing target column events
+14:41:53 DEBUG          Delete 3 conflicted events
+14:42:01 DEBUG          It was found 94 pos and 753 neg hypothesis
+14:42:01 DEBUG          It were deleted 94 conflicted and 0 surplus hypothesis
+14:42:01 DEBUG          Was not found reasons for class 3
+14:42:01 INFO      Start search reasons for property "ШЭМ"=oo_
+14:42:01 DEBUG          Delete 14 duplicated events
+14:42:01 DEBUG          Miss 0 missing target column events
+14:42:01 DEBUG          Delete 7 conflicted events
+14:42:03 DEBUG          It was found 400 pos and 21 neg hypothesis
+14:42:03 DEBUG          It were deleted 359 conflicted and 39 surplus hypothesis
+14:42:03 INFO           Found 2 reasons for "ШЭМ"=oo_:
+        [16]: "Нерешенность"=o__ & "ДЗП"=_oo & "Ip"=oo_
+        [15]: "Нерешенность"=o__ & "ДЗП"=_oo & "e"=_oo
+14:42:03 INFO      Start search reasons for property "Риск-новизна"=oo_
+14:42:03 DEBUG          Delete 14 duplicated events
+14:42:03 DEBUG          Miss 0 missing target column events
+14:42:03 DEBUG          Delete 6 conflicted events
+14:42:06 DEBUG          It was found 437 pos and 44 neg hypothesis
+14:42:06 DEBUG          It were deleted 323 conflicted and 106 surplus hypothesis
+14:42:06 INFO           Found 5 reasons for "Риск-новизна"=oo_:
+        [27]: "Неуязвимость"=_oo & "Ip"=oo_
+        [26]: "ДЗП"=_oo & "Ip"=oo_ & "F1o"=oo_
+        [18]: "Нерешенность"=o__ & "Ip"=oo_ & "F2s"=o__
+        [16]: "ООО"=o_o & "ДЗП"=_oo & "F1o"=oo_
+        [14]: "ООО"=o_o & "Неуязвимость"=_oo
+14:42:06 INFO      Start search reasons for property "ООО"=o_o
+14:42:06 DEBUG          Delete 14 duplicated events
+14:42:06 DEBUG          Miss 0 missing target column events
+14:42:06 DEBUG          Delete 11 conflicted events
+14:42:07 DEBUG          It was found 315 pos and 288 neg hypothesis
+14:42:07 DEBUG          It were deleted 315 conflicted and 0 surplus hypothesis
+14:42:07 DEBUG          Was not found reasons for "ООО"=o_o
+14:42:07 INFO      Start search reasons for property "Неуязвимость"=_oo
+14:42:08 DEBUG          Delete 14 duplicated events
+14:42:08 DEBUG          Miss 0 missing target column events
+14:42:08 DEBUG          Delete 10 conflicted events
+14:42:09 DEBUG          It was found 367 pos and 133 neg hypothesis
+14:42:09 DEBUG          It were deleted 367 conflicted and 0 surplus hypothesis
+14:42:09 DEBUG          Was not found reasons for "Неуязвимость"=_oo
+14:42:09 INFO      Start search reasons for property "Нерешенность"=o__
+14:42:09 DEBUG          Delete 14 duplicated events
+14:42:09 DEBUG          Miss 0 missing target column events
+14:42:09 DEBUG          Delete 9 conflicted events
+14:42:11 DEBUG          It was found 373 pos and 155 neg hypothesis
+14:42:11 DEBUG          It were deleted 373 conflicted and 0 surplus hypothesis
+14:42:11 DEBUG          Was not found reasons for "Нерешенность"=o__
+14:42:11 INFO      Start search reasons for property "ДЗП"=_oo
+14:42:11 DEBUG          Delete 14 duplicated events
+14:42:11 DEBUG          Miss 0 missing target column events
+14:42:11 DEBUG          Delete 9 conflicted events
+14:42:13 DEBUG          It was found 393 pos and 86 neg hypothesis
+14:42:13 DEBUG          It were deleted 393 conflicted and 0 surplus hypothesis
+14:42:13 DEBUG          Was not found reasons for "ДЗП"=_oo
+14:42:13 INFO      Start search reasons for property "e"=_oo
+14:42:13 DEBUG          Delete 12 duplicated events
+14:42:13 DEBUG          Miss 13 missing target column events
+14:42:13 DEBUG          Delete 9 conflicted events
+14:42:15 DEBUG          It was found 381 pos and 50 neg hypothesis
+14:42:15 DEBUG          It were deleted 381 conflicted and 0 surplus hypothesis
+14:42:15 DEBUG          Was not found reasons for "e"=_oo
+14:42:15 INFO      Start search reasons for property "Ip"=oo_
+14:42:15 DEBUG          Delete 12 duplicated events
+14:42:15 DEBUG          Miss 13 missing target column events
+14:42:15 DEBUG          Delete 4 conflicted events
+14:42:16 DEBUG          It was found 367 pos and 23 neg hypothesis
+14:42:16 DEBUG          It were deleted 289 conflicted and 75 surplus hypothesis
+14:42:16 INFO           Found 3 reasons for "Ip"=oo_:
+        [27]: "Риск-новизна"=oo_ & "Неуязвимость"=_oo
+        [22]: "ШЭМ"=oo_ & "Риск-новизна"=oo_ & "ДЗП"=_oo
+        [19]: "ШЭМ"=oo_ & "Риск-новизна"=oo_ & "F2s"=o__
+14:42:16 INFO      Start search reasons for property "F2s"=o__
+14:42:17 DEBUG          Delete 14 duplicated events
+14:42:17 DEBUG          Miss 1 missing target column events
+14:42:17 DEBUG          Delete 6 conflicted events
+14:42:19 DEBUG          It was found 411 pos and 124 neg hypothesis
+14:42:19 DEBUG          It were deleted 411 conflicted and 0 surplus hypothesis
+14:42:19 DEBUG          Was not found reasons for "F2s"=o__
+14:42:19 INFO      Start search reasons for property "F1o"=oo_
+14:42:19 DEBUG          Delete 14 duplicated events
+14:42:19 DEBUG          Miss 0 missing target column events
+14:42:19 DEBUG          Delete 3 conflicted events
+14:42:21 DEBUG          It was found 398 pos and 23 neg hypothesis
+14:42:21 DEBUG          It were deleted 387 conflicted and 8 surplus hypothesis
+14:42:21 INFO           Found 3 reasons for "F1o"=oo_:
+        [20]: "Неуязвимость"=_oo & "e"=_oo
+        [19]: "Риск-новизна"=oo_ & "Нерешенность"=o__ & "e"=_oo
+        [18]: "Риск-новизна"=oo_ & "ДЗП"=_oo & "e"=_oo
+14:42:21 INFO
+
+
+*****Start search reasons for class 1*****
+14:42:21 INFO      Start search reasons for class property 1
+14:42:21 DEBUG          Delete 32 duplicated events
+14:42:21 DEBUG          Miss 0 missing target column events
+14:42:21 DEBUG          Delete 9 conflicted events
+14:42:23 DEBUG          It was found 149 pos and 462 neg hypothesis
+14:42:23 DEBUG          It were deleted 149 conflicted and 0 surplus hypothesis
+14:42:23 DEBUG          Was not found reasons for class 1
+14:42:23 INFO      Start search reasons for property "ШСЖ"=_oo
+14:42:23 DEBUG          Delete 41 duplicated events
+14:42:23 DEBUG          Miss 0 missing target column events
+14:42:23 DEBUG          Delete 8 conflicted events
+14:42:25 DEBUG          It was found 381 pos and 11 neg hypothesis
+14:42:25 DEBUG          It were deleted 271 conflicted and 104 surplus hypothesis
+14:42:25 INFO           Found 6 reasons for "ШСЖ"=_oo:
+        [19]: "Пол"=_o_ & "Неув.в прич."=_oo
+        [17]: "Неув.в прич."=_oo & "m"=oo_
+        [14]: "ШВ"=_oo & "Пол"=_o_ & "ММО"=oo_
+        [13]: "ММО"=oo_ & "m"=oo_
+        [12]: "Неув.в прич."=_oo & "e"=oo_
+        [9]: "ММО"=oo_ & "e"=oo_
+14:42:25 INFO      Start search reasons for property "ШЛСМ"=_oo
+14:42:25 DEBUG          Delete 41 duplicated events
+14:42:25 DEBUG          Miss 0 missing target column events
+14:42:25 DEBUG          Delete 2 conflicted events
+14:42:27 DEBUG          It was found 399 pos and 9 neg hypothesis
+14:42:27 DEBUG          It were deleted 231 conflicted and 166 surplus hypothesis
+14:42:27 INFO           Found 2 reasons for "ШЛСМ"=_oo:
+        [28]: "ШВ"=_oo & "Пол"=_o_
+        [21]: "Пол"=_o_ & "Неув.в прич."=_oo
+14:42:27 INFO      Start search reasons for property "ШВ"=_oo
+14:42:27 DEBUG          Delete 41 duplicated events
+14:42:27 DEBUG          Miss 0 missing target column events
+14:42:27 DEBUG          Delete 3 conflicted events
+14:42:28 DEBUG          It was found 359 pos and 12 neg hypothesis
+14:42:28 DEBUG          It were deleted 205 conflicted and 148 surplus hypothesis
+14:42:28 INFO           Found 5 reasons for "ШВ"=_oo:
+        [26]: "ШЛСМ"=_oo & "m"=oo_
+        [18]: "ШЛСМ"=_oo & "e"=oo_
+        [17]: "Неув.в прич."=_oo & "ММО"=oo_
+        [11]: "ПФ"=oo_ & "Неув.в прич."=_oo & "m"=oo_
+        [8]: "ПФ"=oo_ & "Неув.в прич."=_oo & "e"=oo_
+14:42:28 INFO      Start search reasons for property "СЧЗ"=oo_
+14:42:28 DEBUG          Delete 41 duplicated events
+14:42:28 DEBUG          Miss 0 missing target column events
+14:42:28 DEBUG          Delete 4 conflicted events
+14:42:30 DEBUG          It was found 389 pos and 7 neg hypothesis
+14:42:30 DEBUG          It were deleted 163 conflicted and 223 surplus hypothesis
+14:42:30 INFO           Found 3 reasons for "СЧЗ"=oo_:
+        [27]: "ПФ"=oo_
+        [24]: "ММО"=oo_
+        [14]: "Неув.в прич."=_oo & "e"=oo_
+14:42:30 INFO      Start search reasons for property "Пол"=_o_
+14:42:30 DEBUG          Delete 41 duplicated events
+14:42:30 DEBUG          Miss 0 missing target column events
+14:42:30 DEBUG          Delete 4 conflicted events
+14:42:32 DEBUG          It was found 379 pos and 19 neg hypothesis
+14:42:32 DEBUG          It were deleted 292 conflicted and 82 surplus hypothesis
+14:42:32 INFO           Found 2 reasons for "Пол"=_o_:
+        [22]: "ШЛСМ"=_oo & "ММО"=oo_
+        [15]: "ШЛСМ"=_oo & "ПФ"=oo_ & "Неув.в прич."=_oo
+14:42:32 INFO      Start search reasons for property "ПФ"=oo_
+14:42:32 DEBUG          Delete 41 duplicated events
+14:42:32 DEBUG          Miss 0 missing target column events
+14:42:32 DEBUG          Delete 5 conflicted events
+14:42:34 DEBUG          It was found 383 pos and 51 neg hypothesis
+14:42:34 DEBUG          It were deleted 381 conflicted and 1 surplus hypothesis
+14:42:34 INFO           Found 1 reasons for "ПФ"=oo_:
+        [11]: "ММО"=oo_ & "e"=oo_
+14:42:34 INFO      Start search reasons for property "Неув.в прич."=_oo
+14:42:34 DEBUG          Delete 41 duplicated events
+14:42:34 DEBUG          Miss 0 missing target column events
+14:42:34 DEBUG          Delete 9 conflicted events
+14:42:35 DEBUG          It was found 371 pos and 14 neg hypothesis
+14:42:35 DEBUG          It were deleted 287 conflicted and 77 surplus hypothesis
+14:42:35 INFO           Found 7 reasons for "Неув.в прич."=_oo:
+        [22]: "ШВ"=_oo & "СЧЗ"=oo_
+        [16]: "ШСЖ"=_oo & "ШЛСМ"=_oo & "СЧЗ"=oo_
+        [15]: "ШЛСМ"=_oo & "СЧЗ"=oo_ & "m"=oo_
+        [13]: "ШСЖ"=_oo & "ШВ"=_oo & "ММО"=oo_
+        [12]: "ШСЖ"=_oo & "ШВ"=_oo & "ПФ"=oo_
+        [12]: "ШЛСМ"=_oo & "СЧЗ"=oo_ & "e"=oo_
+        [12]: "ШСЖ"=_oo & "ШЛСМ"=_oo & "ПФ"=oo_
+14:42:35 INFO      Start search reasons for property "ММО"=oo_
+14:42:35 DEBUG          Delete 41 duplicated events
+14:42:35 DEBUG          Miss 0 missing target column events
+14:42:35 DEBUG          Delete 6 conflicted events
+14:42:36 DEBUG          It was found 327 pos and 57 neg hypothesis
+14:42:36 DEBUG          It were deleted 327 conflicted and 0 surplus hypothesis
+14:42:36 DEBUG          Was not found reasons for "ММО"=oo_
+14:42:36 INFO      Start search reasons for property "m"=oo_
+14:42:36 DEBUG          Delete 38 duplicated events
+14:42:36 DEBUG          Miss 13 missing target column events
+14:42:36 DEBUG          Delete 1 conflicted events
+14:42:37 DEBUG          It was found 359 pos and 3 neg hypothesis
+14:42:37 DEBUG          It were deleted 98 conflicted and 256 surplus hypothesis
+14:42:37 INFO           Found 5 reasons for "m"=oo_:
+        [26]: "Пол"=_o_
+        [22]: "e"=oo_
+        [18]: "ШСЖ"=_oo & "СЧЗ"=oo_
+        [14]: "ШСЖ"=_oo & "ПФ"=oo_
+        [13]: "ШСЖ"=_oo & "ММО"=oo_
+14:42:37 INFO      Start search reasons for property "e"=oo_
+14:42:37 DEBUG          Delete 38 duplicated events
+14:42:37 DEBUG          Miss 13 missing target column events
+14:42:37 DEBUG          Delete 8 conflicted events
+14:42:38 DEBUG          It was found 359 pos and 9 neg hypothesis
+14:42:38 DEBUG          It were deleted 180 conflicted and 172 surplus hypothesis
+14:42:38 INFO           Found 7 reasons for "e"=oo_:
+        [15]: "ПФ"=oo_ & "m"=oo_
+        [15]: "ШЛСМ"=_oo & "СЧЗ"=oo_ & "m"=oo_
+        [14]: "СЧЗ"=oo_ & "Пол"=_o_
+        [13]: "Пол"=_o_ & "ПФ"=oo_
+        [11]: "Пол"=_o_ & "ММО"=oo_
+        [11]: "ШСЖ"=_oo & "ШЛСМ"=_oo & "СЧЗ"=oo_
+        [11]: "ШСЖ"=_oo & "ПФ"=oo_
+14:42:38 INFO
+
+
+*****Start search reasons for class 2*****
+14:42:38 INFO      Start search reasons for class property 2
+14:42:38 DEBUG          Delete 35 duplicated events
+14:42:38 DEBUG          Miss 0 missing target column events
+14:42:38 DEBUG          Delete 5 conflicted events
+14:42:39 DEBUG          It was found 353 pos and 421 neg hypothesis
+14:42:39 DEBUG          It were deleted 353 conflicted and 0 surplus hypothesis
+14:42:39 DEBUG          Was not found reasons for class 2
+14:42:39 INFO      Start search reasons for property "ШЛ"=oo_
+14:42:39 DEBUG          Delete 40 duplicated events
+14:42:39 DEBUG          Miss 0 missing target column events
+14:42:39 DEBUG          Delete 3 conflicted events
+14:42:40 DEBUG          It was found 334 pos and 4 neg hypothesis
+14:42:40 DEBUG          It were deleted 259 conflicted and 74 surplus hypothesis
+14:42:40 INFO           Found 1 reasons for "ШЛ"=oo_:
+        [25]: "Общий "=_o_
+14:42:40 INFO      Start search reasons for property "ШКМ"=_oo
+14:42:40 DEBUG          Delete 40 duplicated events
+14:42:40 DEBUG          Miss 0 missing target column events
+14:42:40 DEBUG          Delete 1 conflicted events
+14:42:41 DEBUG          It was found 289 pos and 32 neg hypothesis
+14:42:41 DEBUG          It were deleted 269 conflicted and 17 surplus hypothesis
+14:42:41 INFO           Found 3 reasons for "ШКМ"=_oo:
+        [14]: "Общий "=_o_ & "ОЭ"=_oo & "ООО"=_oo
+        [12]: "Общий "=_o_ & "ОЭ"=_oo & "Неув.в прич."=oo_
+        [7]: "Традиция"=o_o & "Общий "=_o_ & "Неув.в прич."=oo_
+14:42:41 INFO      Start search reasons for property "Уникальность"=oo_
+14:42:41 DEBUG          Delete 40 duplicated events
+14:42:41 DEBUG          Miss 0 missing target column events
+14:42:41 DEBUG          Delete 5 conflicted events
+14:42:41 DEBUG          It was found 262 pos and 55 neg hypothesis
+14:42:41 DEBUG          It were deleted 235 conflicted and 23 surplus hypothesis
+14:42:41 INFO           Found 1 reasons for "Уникальность"=oo_:
+        [12]: "ШЛ"=oo_ & "ППВВ"=_oo & "Общий "=_o_
+14:42:41 INFO      Start search reasons for property "Традиция"=o_o
+14:42:41 DEBUG          Delete 40 duplicated events
+14:42:41 DEBUG          Miss 0 missing target column events
+14:42:41 DEBUG          Delete 8 conflicted events
+14:42:42 DEBUG          It was found 242 pos and 174 neg hypothesis
+14:42:42 DEBUG          It were deleted 242 conflicted and 0 surplus hypothesis
+14:42:42 DEBUG          Was not found reasons for "Традиция"=o_o
+14:42:42 INFO      Start search reasons for property "ППВВ"=_oo
+14:42:42 DEBUG          Delete 40 duplicated events
+14:42:42 DEBUG          Miss 0 missing target column events
+14:42:42 DEBUG          Delete 5 conflicted events
+14:42:43 DEBUG          It was found 289 pos and 43 neg hypothesis
+14:42:43 DEBUG          It were deleted 285 conflicted and 2 surplus hypothesis
+14:42:43 INFO           Found 1 reasons for "ППВВ"=_oo:
+        [8]: "Уникальность"=oo_ & "Общий "=_o_ & "ОЭ"=_oo
+14:42:43 INFO      Start search reasons for property "Общий "=_o_
+14:42:43 DEBUG          Delete 40 duplicated events
+14:42:43 DEBUG          Miss 0 missing target column events
+14:42:43 DEBUG          Delete 8 conflicted events
+14:42:43 DEBUG          It was found 268 pos and 100 neg hypothesis
+14:42:43 DEBUG          It were deleted 268 conflicted and 0 surplus hypothesis
+14:42:43 DEBUG          Was not found reasons for "Общий "=_o_
+14:42:43 INFO      Start search reasons for property "ОЭ"=_oo
+14:42:43 DEBUG          Delete 40 duplicated events
+14:42:43 DEBUG          Miss 0 missing target column events
+14:42:43 DEBUG          Delete 6 conflicted events
+14:42:44 DEBUG          It was found 306 pos and 29 neg hypothesis
+14:42:44 DEBUG          It were deleted 293 conflicted and 9 surplus hypothesis
+14:42:44 INFO           Found 4 reasons for "ОЭ"=_oo:
+        [20]: "ШКМ"=_oo & "ППВВ"=_oo
+        [18]: "ШКМ"=_oo & "Уникальность"=oo_ & "ООО"=_oo
+        [13]: "ШКМ"=_oo & "Традиция"=o_o & "ООО"=_oo
+        [12]: "Традиция"=o_o & "ППВВ"=_oo & "ООО"=_oo
+14:42:44 INFO      Start search reasons for property "ООО"=_oo
+14:42:44 DEBUG          Delete 40 duplicated events
+14:42:44 DEBUG          Miss 0 missing target column events
+14:42:44 DEBUG          Delete 2 conflicted events
+14:42:45 DEBUG          It was found 429 pos and 22 neg hypothesis
+14:42:45 DEBUG          It were deleted 410 conflicted and 14 surplus hypothesis
+14:42:45 INFO           Found 5 reasons for "ООО"=_oo:
+        [23]: "ШКМ"=_oo & "Уникальность"=oo_
+        [13]: "ШКМ"=_oo & "ППВВ"=_oo & "Общий "=_o_
+        [13]: "ШКМ"=_oo & "Традиция"=o_o & "ППВВ"=_oo
+        [12]: "Традиция"=o_o & "ППВВ"=_oo & "ОЭ"=_oo
+        [10]: "Уникальность"=oo_ & "Традиция"=o_o & "ОЭ"=_oo
+14:42:45 INFO      Start search reasons for property "Неув.в прич."=oo_
+14:42:45 DEBUG          Delete 40 duplicated events
+14:42:45 DEBUG          Miss 0 missing target column events
+14:42:45 DEBUG          Delete 5 conflicted events
+14:42:46 DEBUG          It was found 309 pos and 32 neg hypothesis
+14:42:46 DEBUG          It were deleted 283 conflicted and 19 surplus hypothesis
+14:42:46 INFO           Found 1 reasons for "Неув.в прич."=oo_:
+        [7]: "ШКМ"=_oo & "Традиция"=o_o & "Общий "=_o_
+14:42:46 INFO      Start search reasons for property "Нерешенность"=oo_
+14:42:46 DEBUG          Delete 40 duplicated events
+14:42:46 DEBUG          Miss 0 missing target column events
+14:42:46 DEBUG          Delete 4 conflicted events
+14:42:47 DEBUG          It was found 354 pos and 17 neg hypothesis
+14:42:47 DEBUG          It were deleted 277 conflicted and 71 surplus hypothesis
+14:42:47 INFO           Found 6 reasons for "Нерешенность"=oo_:
+        [16]: "Уникальность"=oo_ & "Общий "=_o_
+        [16]: "ППВВ"=_oo & "Общий "=_o_
+        [12]: "Общий "=_o_ & "ООО"=_oo & "Неув.в прич."=oo_
+        [10]: "Общий "=_o_ & "ОЭ"=_oo & "Неув.в прич."=oo_
+        [9]: "Традиция"=o_o & "Общий "=_o_ & "ООО"=_oo
+        [7]: "Традиция"=o_o & "Общий "=_o_ & "ОЭ"=_oo
+
+
+        Was not found reasons for class 2
+        Reasons for "ШЛ"=oo_:
+        [25]: "Общий "=_o_
+        Reasons for "ШКМ"=_oo:
+        [14]: "Общий "=_o_ & "ОЭ"=_oo & "ООО"=_oo
+        [12]: "Общий "=_o_ & "ОЭ"=_oo & "Неув.в прич."=oo_
+        [7]: "Традиция"=o_o & "Общий "=_o_ & "Неув.в прич."=oo_
+        Reasons for "Уникальность"=oo_:
+        [12]: "ШЛ"=oo_ & "ППВВ"=_oo & "Общий "=_o_
+        Was not found reasons for "Традиция"=o_o
+        Reasons for "ППВВ"=_oo:
+        [8]: "Уникальность"=oo_ & "Общий "=_o_ & "ОЭ"=_oo
+        Was not found reasons for "Общий "=_o_
+        Reasons for "ОЭ"=_oo:
+        [20]: "ШКМ"=_oo & "ППВВ"=_oo
+        [18]: "ШКМ"=_oo & "Уникальность"=oo_ & "ООО"=_oo
+        [13]: "ШКМ"=_oo & "Традиция"=o_o & "ООО"=_oo
+        [12]: "Традиция"=o_o & "ППВВ"=_oo & "ООО"=_oo
+        Reasons for "ООО"=_oo:
+        [23]: "ШКМ"=_oo & "Уникальность"=oo_
+        [13]: "ШКМ"=_oo & "ППВВ"=_oo & "Общий "=_o_
+        [13]: "ШКМ"=_oo & "Традиция"=o_o & "ППВВ"=_oo
+        [12]: "Традиция"=o_o & "ППВВ"=_oo & "ОЭ"=_oo
+        [10]: "Уникальность"=oo_ & "Традиция"=o_o & "ОЭ"=_oo
+        Reasons for "Неув.в прич."=oo_:
+        [7]: "ШКМ"=_oo & "Традиция"=o_o & "Общий "=_o_
+        Reasons for "Нерешенность"=oo_:
+        [16]: "Уникальность"=oo_ & "Общий "=_o_
+        [16]: "ППВВ"=_oo & "Общий "=_o_
+        [12]: "Общий "=_o_ & "ООО"=_oo & "Неув.в прич."=oo_
+        [10]: "Общий "=_o_ & "ОЭ"=_oo & "Неув.в прич."=oo_
+        [9]: "Традиция"=o_o & "Общий "=_o_ & "ООО"=_oo
+        [7]: "Традиция"=o_o & "Общий "=_o_ & "ОЭ"=_oo
