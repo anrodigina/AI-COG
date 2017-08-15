@@ -7,8 +7,8 @@ pd.options.display.max_rows = 72
 pd.options.display.max_columns = 72
 file1 = 'psy_20151221.csv'
 file2 = 'NEW.csv'
-data = pd.read_csv(file1, header=0, na_values='?', sep=';', encoding='cp1251', index_col=0)
-data2 = pd.read_csv(file2, header=0, na_values='?', sep=';', encoding='cp1251', index_col=0)
+data = pd.read_csv(file1, na_values='?', sep=';', encoding='cp1251')
+data2 = pd.read_csv(file2, na_values='?', sep=';', encoding='cp1251')
 f1 = open('pearson.txt', 'w')
 f2 = open('kendall.txt', 'w')
 f3 = open('spearman.txt', 'w')
